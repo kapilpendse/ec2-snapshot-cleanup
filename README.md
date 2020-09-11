@@ -18,6 +18,7 @@ Then open the ec2-snapshot-cleanup.py in a code/text editor and set the followin
 
 **CAUTION** - if you set DRYRUN to `True`, the script will delete old snapshots that are older than `MAX_DAYS_TO_RETAIN` days old. This is a **NON-REVERSIBLE** operation.
 
+## Run
 After you've configured the above variables, you can run the following command to perform the cleanup.
 
 ```
